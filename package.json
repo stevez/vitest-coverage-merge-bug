@@ -21,6 +21,10 @@
     "react-dom": "^18.2.0",
     "vite": "^8.3.2",
     "vitest": "^5.0.3",
-    "vitest-browser-react": "^2.3.0"
+    "vitest-browser-react": "^2.3.0",
+    "@vitest/istanbul-lib-coverage": "file:vendor/vitest-istanbul-lib-coverage-pr25.tgz"
+  },
+  "overrides": {
+    "@vitest/istanbul-lib-coverage": "$@vitest/istanbul-lib-coverage"
   }
 }
