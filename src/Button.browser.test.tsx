@@ -1,6 +1,6 @@
 import { describe, it, expect, vi } from 'vitest'
 import { render } from 'vitest-browser-react'
-import { page } from '@vitest/browser/context'
+import { page } from 'vitest/browser'
 import { Button } from './Button'
 
 describe('Button (browser test)', () => {
